@@ -148,6 +148,7 @@ form::-webkit-scrollbar-thumb {
  }
  form{
   min-width: 300px;
+  max-height: 650px;
  }
  .form-field {
   display: grid;
