@@ -140,3 +140,18 @@ form::-webkit-scrollbar-thumb {
   border-radius: 8px;
   background-color: #0d5487;
 }
+
+@media only screen and (max-width: 600px) {
+ .tag-card{
+    max-width: 350px;
+    min-width: 300px;
+ }
+ form{
+  min-width: 300px;
+ }
+ .form-field {
+  display: grid;
+  align-items: baseline;
+  text-align: justify;
+ }
+}
